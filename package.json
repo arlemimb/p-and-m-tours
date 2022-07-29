@@ -8,7 +8,7 @@
     "test": "echo \"No test specified\" && exit 0"
   },
   "keywords": [],
-  "author": "",
+  "author": "Mel Bagley",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.17.2",
@@ -24,5 +24,13 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-router": "^6.3.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arlemimb/p-and-m-tours.git"
+  },
+  "bugs": {
+    "url": "https://github.com/arlemimb/p-and-m-tours/issues"
+  },
+  "homepage": "https://github.com/arlemimb/p-and-m-tours#readme"
 }
