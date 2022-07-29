@@ -16,7 +16,7 @@
     />
     <meta name="description" content="" />
 
-    <title>Home</title>
+    <title><%= htmlWebpackPlugin.options.title %></title>
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Roboto:700,400&subset=cyrillic,latin,greek,vietnamese"
@@ -36,6 +36,7 @@
     <title>Basic Webpack and Babel setup</title>
   </head>
   <body>
+    <div id="app"></div>
     <section
       class="mbr-navbar mbr-navbar--freeze mbr-navbar--absolute mbr-navbar--sticky mbr-navbar--auto-collapse"
       id="ext_menu-7"
