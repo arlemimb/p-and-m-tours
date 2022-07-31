@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 
 import App from './App';
 
-const title = 'P & M Tours';
+const title = 'P & M Tours 2';
 
 ReactDOM.render(
   <App title={title} />,

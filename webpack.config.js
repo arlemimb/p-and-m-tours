@@ -11,6 +11,10 @@ module.exports = {
         exclude: /node_modules/,
         use: ['babel-loader'],
       },
+      {
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader'],
+      },
     ],
   },
   resolve: {
@@ -20,6 +24,7 @@ module.exports = {
     path: path.resolve(__dirname, './dist'),
     filename: 'bundle.js',
   },
+  // eslint-disable-next-line new-cap
   plugins: [new webpack.HotModuleReplacementPlugin(), new dotenv()],
   devServer: {
     static: path.resolve(__dirname, './dist'),
