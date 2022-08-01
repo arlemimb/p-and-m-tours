@@ -6,13 +6,14 @@ import {
 } from 'react-router-dom';
 // import PropTypes from 'prop-types';
 
+// import css
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './assets/App.css';
+
 // Import the pages
 import Home from './components/Home/Home';
 import About from './components/About/About';
 import Cuisine from './components/Cuisine/Cuisine';
-
-// import css
-import './assets/App.css';
 
 // Import the Header
 import Header from './components/Header/Header';
@@ -25,15 +26,17 @@ App.propTypes = {
 
 function App() {
   return (
-    <div className="App">
-      <Router>
-        <Header />
-        <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route exact path="About" element={<About />} />
-          <Route exact path="Cuisine" element={<Cuisine />} />
-        </Routes>
-      </Router>
+    <div className="App" id="fh5co-wrapper">
+      <div id="fh5co-page">
+        <Router>
+          <Header />
+          <Routes>
+            <Route exact path="/" element={<Home />} />
+            <Route exact path="About" element={<About />} />
+            <Route exact path="Cuisine" element={<Cuisine />} />
+          </Routes>
+        </Router>
+      </div>
     </div>
   );
 }
