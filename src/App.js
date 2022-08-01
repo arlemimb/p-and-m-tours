@@ -7,7 +7,13 @@ import {
 // import PropTypes from 'prop-types';
 
 // import css
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+import './assets/luxe/css/superfish.css';
+import './assets/luxe/css/bootstrap-datepicker.min.css';
+import './assets/luxe/css/cs-select.css';
+import './assets/luxe/css/cs-skin-border.css';
+import './assets/luxe/css/themify-icons.css';
+import './assets/luxe/css/flexslider.css';
 import './assets/App.css';
 
 // Import the pages

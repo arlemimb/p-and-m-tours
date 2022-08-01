@@ -15,6 +15,14 @@
   font-weight: normal;
   font-style: normal;
 }
+
+/* Boostrap section */
+
+@import "bootstrap.css";
+
+/* End of Bootstrap section */
+
+
 /* =======================================================
 *
 *   Template Style 
@@ -25,7 +33,7 @@ body {
   font-family: "Open Sans", Arial, serif;
   line-height: 1.8;
   font-size: 16px;
-  background: #000;
+  background: #252a37;
   color: #848484;
   font-weight: 300;
   overflow-x: hidden;
