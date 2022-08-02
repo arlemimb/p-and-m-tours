@@ -353,6 +353,10 @@ figure {
   width: 100%;
 }
 
+/*#mb-header-logo {
+  height: 45px;
+}*/
+
 .nav-header {
   position: relative;
   float: left;
@@ -402,6 +406,11 @@ figure {
   padding: 0;
   margin: 0;
   font-weight: 100;
+}
+
+#fh5co-logo > a > img {
+  height: 45px;
+  max-width: 200px;
 }
 
 @media screen and (max-width: 768px) {
