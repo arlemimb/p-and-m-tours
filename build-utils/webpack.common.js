@@ -26,10 +26,14 @@ module.exports = {
           },
         ],
       },
+      {
+        test: /\.(png|jpe?g)$/,
+        use: ['url-loader'],
+      },
     ],
   },
   resolve: {
-    extensions: ['*', '.js', '.jsx', '.css'],
+    extensions: ['*', '.js', '.jsx', '.css', '.jpg', '.jpeg', '.png'],
   },
   plugins: [
     new CleanWebpackPlugin(),

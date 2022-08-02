@@ -14,15 +14,15 @@ import './assets/luxe/css/cs-select.css';
 import './assets/luxe/css/cs-skin-border.css';
 import './assets/luxe/css/themify-icons.css';
 import './assets/luxe/css/flexslider.css';
-import './assets/App.css';
+import './assets/app.css';
 
 // Import the pages
-import Home from './components/Home/Home';
-import About from './components/About/About';
-import Cuisine from './components/Cuisine/Cuisine';
+import Home from './components/home/home';
+import About from './components/about/about';
+import Cuisine from './components/cuisine/cuisine';
 
 // Import the Header
-import Header from './components/Header/Header';
+import Header from './components/header/header';
 
 /* const App = ({ title }) => <div>{title}</div>;
 

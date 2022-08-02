@@ -1,6 +1,7 @@
 const path = require('path');
 const webpack = require('webpack');
 const dotenv = require('dotenv-webpack');
+const multi = require('multi-loader');
 
 module.exports = {
   entry: path.resolve(__dirname, './src/index.js'),
@@ -26,10 +27,30 @@ module.exports = {
           },
         ],
       },
+      {
+        test: /\.(png|jpe?g)$/,
+        use: ['url-loader'],
+      },
+      /* {
+        test: /\.(jpe?g|png)$/i,
+        loader: multi(
+          'file-loader?name=[name].[ext].webp!webp-loader?{quality: 95}',
+          'file-loader?name=[name].[ext]'
+        ),
+      }, */
     ],
   },
   resolve: {
-    extensions: ['*', '.js', '.jsx', '.css'],
+    extensions: [
+      '*',
+      '.js',
+      '.jsx',
+      '.css',
+      '.jpg',
+      '.jpeg',
+      '.png',
+      '.svg',
+    ],
   },
   output: {
     path: path.resolve(__dirname, './dist'),
