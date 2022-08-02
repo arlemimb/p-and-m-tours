@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 
 // import { ReactComponent as Logo } from '../../assets/images/pmt-logo.svg';
 
+const logo = process.env.SITE_NAME;
+
 const Header = () => {
   return (
     <>
@@ -17,7 +19,7 @@ const Header = () => {
                 <i />
   </a> */}
               <h1 id="fh5co-logo">
-                <Link to="/">LOGO</Link>
+                <Link to="/">{logo}</Link>
               </h1>
               <nav id="fh5co-menu-wrap" role="navigation">
                 <ul className="sf-menu" id="fh5co-primary-menu">
