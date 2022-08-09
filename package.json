@@ -1,6 +1,6 @@
 {
   "name": "p-and-m-tours",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Bit of Fun: A Holiday Tours website that showcases some of our favourite holiday pictures...nothing to buy here!",
   "main": "index.js",
   "scripts": {
